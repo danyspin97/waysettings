@@ -1,0 +1,12 @@
+[package]
+name = "waysettings"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+iced = { version = "0.10.0", features = [] }
+i18n-embed = {version =  "0.14.1", features = ["fluent-system", "desktop-requester", "parking_lot"] }
+i18n-embed-fl = "0.7.0"
+rust-embed = "8.0.0"
